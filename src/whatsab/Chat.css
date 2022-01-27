@@ -1,0 +1,288 @@
+.chat
+{
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+
+  
+}
+.arrow_icon{
+   /* margin-top: 100px; */
+  /* padding-right: 50px; */
+left: 23.48%;
+right: 23.48%;
+margin-top:20px;
+bottom: 33.33%;
+margin-right: 10px;
+cursor: pointer;
+}
+
+.chat-top{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.profile_rect{
+display: flex;
+align-items: center;
+width: 200px;
+height: 40px;
+left: 1170px;
+margin-top: 17px;
+margin-right: 20px;
+border-radius: 10px;
+}
+.profile_text{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+padding-left: 50px;
+padding-top: 5px;
+
+/* identical to box height */
+
+
+color: #3C3C3C;
+
+}
+.chat_header
+{
+    padding:  11px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    border-bottom: 1px solid rgb(240, 247, 247);
+    border-radius: 20px 20px 0px 0px;
+    background-color:  #303C6C;
+    ;
+}
+.chat_headerInfo
+{
+    flex:  1;
+    padding-left: 10px;
+}
+   
+.chat_headerInfo > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.chat_headerInfo > p{
+    color: gray;
+}
+.chat_headerRight
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* display:  flex;
+    align-items: center;
+    /* margin-left: auto; */
+    /* justify-content: space-evenly;
+    min-width: 10vw;  */ 
+    /* display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 20px;
+    border-right: 1px solid lightgrey;
+    background-color: #01ab97; */
+}
+
+.chat_header-avatar{
+    margin-right: 20px;
+}
+
+.chat-headers-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 5px
+
+}
+.chat-header-name{
+    display: flex;
+    flex-direction: row;
+    margin-right: 750px;
+}
+.chat-headers-icon > span
+{
+    font-weight: 100;
+    font-size: small;
+    margin: 7px;
+}
+
+.chat-headers-text {
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.chat_headerRight .MuiSvgIcon-root
+{
+
+    font-size: 24px !important;
+    color: rgb(219, 221, 223);
+    size: 1px;
+}
+
+.chat_body
+{
+flex: 1;
+    background-repeat:  repeat;
+    background-position:center ;
+    padding:  30px;
+    overflow: scroll;
+    /* background-image: url("http://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png"); */
+}
+.chat_avatar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    top: 20px;
+    margin-left: 15px;
+}
+.chat_messege{
+    /* position: relative;
+    font-size: 16px;
+    padding:  10px;
+    border-radius: 10px 13px 2px 20px;
+    width: fit-content;
+    background-color: #ffffff; */
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 18px 10px;
+
+position: relative;
+width: 383px;
+height: 60px;
+
+
+/* left: 690px; */
+/* top: 312px; */
+
+background: #F4F4F4;
+border-radius: 0px 20px 10px;
+}
+.chat_avatar_right{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    top: 20px;
+    margin-right: 15px;
+}
+.chat_reciever
+{
+    /* margin-left: auto;
+    background: rgba(180, 223, 229, 0.5);
+    font-size: 16px;
+    padding:  10px;
+    border-radius: 10px 13px 2px 20px;
+    width: 383px;
+    height: 60px;
+     */
+     background: rgba(180, 223, 229, 0.5);
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     padding: 10px 18px;
+  
+     width: 350px;
+height: 70px;
+left: 610px;
+top: 166px;
+
+
+border-radius: 0px 20px 10px;
+}
+.chat_name
+{
+    position:absolute;
+    top:-15px;
+    font-weight: 800;
+    font-size: xx-small;
+
+
+}
+.chat_time
+
+{
+    margin-left: 7px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    font-size: xx-small;
+    align-items: bottom;
+}
+.chat_avatar_right{
+display: flex;
+flex-direction: row;
+justify-content: end;
+}
+.chat_footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    border-top: 1px solid lightgray;
+}
+.chat_footer >form{
+    display: flex;
+    flex: 1;
+}
+.chat_footer > form >input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.chat_footer > form > button
+{
+    display: none;
+}
+.chat_footer > .MuiSvgIcon-root
+{
+    padding: 10px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
